@@ -57,7 +57,9 @@ tests/                     Task 1–3 pytest coverage
 
 ## Install and run on Windows
 
-From the project directory, using Python 3.11 or newer:
+Requirements: Python 3.11 or newer.
+
+Run these commands one at a time from the project directory in PowerShell:
 
 ```powershell
 py -3.11 -m venv .venv
@@ -68,10 +70,19 @@ python -c "from pipeline.pipeline import run_pipeline; print(run_pipeline())"
 python app.py
 ```
 
-Open `http://127.0.0.1:5000`. The CSV source is the default. To ingest the bundled JSON file, run `python -c "from pipeline.pipeline import run_pipeline; print(run_pipeline(source='json'))"` or POST `{"source":"json"}` to `/api/pipeline/run`.
+Open http://127.0.0.1:5000 in your browser.
 
-Configuration is in `.env`: `DATABASE_PATH`, `DEBUG` (off by default), `DEFAULT_DATA_SOURCE`, and `PIPELINE_BATCH_SIZE`. SQLite defaults to `database/social_media.db`. Processed and warehouse exports are written to `data/processed/`.
+The CSV source is used by default. To ingest the bundled JSON file, run:
 
+```powershell
+python -c "from pipeline.pipeline import run_pipeline; print(run_pipeline(source='json'))"
+```
+
+Alternatively, send a POST request with `{"source":"json"}` to `/api/pipeline/run`.
+
+Configuration is stored in `.env`. Available settings include `DATABASE_PATH`, `DEBUG` (off by default), `DEFAULT_DATA_SOURCE`, and `PIPELINE_BATCH_SIZE`.
+
+SQLite defaults to `database/social_media.db`. Processed and warehouse exports are generated under `data/processed/`.
 ## Dashboard and filters
 
 The dashboard displays total posts and engagement, average engagement/index/polarity, platform and hashtag counts, sentiment distribution/trend, platform performance, engagement by date/hour/weekday, hashtag usage and average engagement, top-performing posts, quality details, and recent pipeline runs. Filters for platform, sentiment, and date range update analytics and the export link. The pipeline button runs the local CSV batch and refreshes the dashboard.
@@ -97,10 +108,11 @@ Filtered analytics/export endpoints accept optional `platform`, `sentiment`, `st
 
 ## Tests
 
+Run the test suite from the project directory in PowerShell:
+
 ```powershell
 python -m pytest --basetemp="$env:USERPROFILE\pytest-temp-social-media"
 ```
-
 The tests use temporary local CSV/JSON/SQLite data and no external service. If that path already contains files you need to keep, choose a new writable path instead. Pytest's cache provider is disabled to avoid the known Windows cache-directory permission issue.
 
 ## Example pipeline workflow
