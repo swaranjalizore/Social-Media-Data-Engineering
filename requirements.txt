@@ -1,0 +1,6 @@
+Flask
+pandas
+numpy
+textblob
+python-dotenv
+pytest

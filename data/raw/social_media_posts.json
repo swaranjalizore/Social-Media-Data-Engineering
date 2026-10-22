@@ -1,0 +1,10 @@
+[
+  {"post_id":"json_001","platform":"Instagram","username":"sample_cook","text":"A lovely lunch and excellent coffee today! #Food #Weekend","created_at":"2025-09-01T09:30:00Z","likes":248,"comments":18,"shares":9,"hashtags":"#Food #Weekend"},
+  {"post_id":"json_002","platform":"X","username":"sample_traveler","text":"The train is running late and updates are unhelpful. #Travel","created_at":"2025-09-01T10:15:00Z","likes":12,"comments":7,"shares":3,"hashtags":"#Travel"},
+  {"post_id":"json_003","platform":"LinkedIn","username":"sample_analyst","text":"Sharing notes from this morning's data engineering meetup. #Data #Technology","created_at":"2025-09-02T14:00:00Z","likes":86,"comments":11,"shares":16,"hashtags":"#Data #Technology"},
+  {"post_id":"json_004","platform":"Facebook","username":"sample_viewer","text":"Watched the new series last night with friends. #Entertainment","created_at":"2025-09-03T20:00:00Z","likes":53,"comments":8,"shares":2,"hashtags":"#Entertainment"},
+  {"post_id":"json_005","platform":"Instagram","username":"sample_support","text":"Thanks to the support team for sorting out my order quickly. #CustomerCare","created_at":"2025-09-04T08:45:00Z","likes":135,"comments":14,"shares":6,"hashtags":"#CustomerCare"},
+  {"post_id":"json_006","platform":"X","username":"sample_gadget","text":"The new device is disappointing and the battery barely lasts. #ProductReview","created_at":"2025-09-05T16:20:00Z","likes":9,"comments":12,"shares":4,"hashtags":"#ProductReview"},
+  {"post_id":"json_007","platform":"LinkedIn","username":"sample_builder","text":"Our team published a useful guide to accessible web design. #Design #Work","created_at":"2025-09-06T11:10:00Z","likes":171,"comments":22,"shares":31,"hashtags":"#Design #Work"},
+  {"post_id":"json_008","platform":"Facebook","username":"sample_walker","text":"A quiet walk through the park before the rain arrived. #LocalLife","created_at":"2025-09-07T07:00:00Z","likes":37,"comments":5,"shares":1,"hashtags":"#LocalLife"}
+]

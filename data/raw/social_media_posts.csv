@@ -1,0 +1,181 @@
+post_id,platform,username,text,created_at,likes,comments,shares,hashtags
+post_0001,Instagram,@sample_creator_02,This trip was unforgettable and the views were stunning. #CustomerCare #Feedback,2025-01-03T01:00:00+00:00,1652,77,46,#CustomerCare #Feedback
+post_0002,X,@sample_creator_03,The flight was delayed and the communication was confusing. #Travel #Weekend,2025-01-05T02:00:00+00:00,1568,180,90,#Travel #Weekend
+post_0003,Facebook,@sample_creator_04,Reading about changes in the local transport plan. #ProductTalk #Innovation,2025-01-07T03:00:00+00:00,569,28,3,#ProductTalk #Innovation
+post_0004,LinkedIn,@sample_creator_05,This recipe turned out delicious and easy to make. #CustomerCare #Feedback,2025-01-09T04:00:00+00:00,1669,107,32,#CustomerCare #Feedback
+post_0005,Instagram,@sample_creator_06,My order arrived late and the packaging was damaged. #Food #Review,2025-01-11T05:00:00+00:00,1311,175,51,#Food #Review
+post_0006,X,@sample_creator_07,I watched the new episode last night. #Entertainment #Community,2025-01-13T06:00:00+00:00,127,35,25,#Entertainment #Community
+post_0007,Facebook,@sample_creator_08,Had an amazing weekend exploring the coast. #ProductTalk #Innovation,2025-01-15T07:00:00+00:00,1091,143,87,#ProductTalk #Innovation
+post_0008,LinkedIn,@sample_creator_09,This update broke features that used to work well. #Food #Review,2025-01-17T08:00:00+00:00,1105,31,81,#Food #Review
+post_0009,Instagram,@sample_creator_10,The conference starts at ten and registration is open. #Food #Review,2025-01-19T09:00:00+00:00,839,20,64,#Food #Review
+post_0010,X,@sample_creator_11,Really impressed with the battery life and design. #ProductTalk #Innovation,2025-01-21T10:00:00+00:00,1228,36,87,#ProductTalk #Innovation
+post_0011,Facebook,@sample_creator_12,The ending was frustrating and the story made no sense. #Entertainment #Community,2025-01-23T11:00:00+00:00,688,4,55,#Entertainment #Community
+post_0012,LinkedIn,@sample_creator_13,A short note about current technology trends. #Entertainment #Community,2025-01-25T12:00:00+00:00,105,90,6,#Entertainment #Community
+post_0013,Instagram,@sample_creator_14,Really impressed with the battery life and design. #Food #Review,2025-01-27T13:00:00+00:00,1187,1,51,#Food #Review
+post_0014,X,@sample_creator_15,This update broke features that used to work well. #Tech #DailyLife,2025-01-29T14:00:00+00:00,1140,54,31,#Tech #DailyLife
+post_0015,Facebook,@sample_creator_16,Reading about changes in the local transport plan. #Food #Review,2025-01-31T15:00:00+00:00,119,68,8,#Food #Review
+post_0016,LinkedIn,@sample_creator_17,The latest update feels fast and genuinely useful. #Travel #Weekend,2025-02-02T16:00:00+00:00,1530,154,71,#Travel #Weekend
+post_0017,Instagram,@sample_creator_18,My order arrived late and the packaging was damaged. #Entertainment #Community,2025-02-04T17:00:00+00:00,265,64,84,#Entertainment #Community
+post_0018,X,@sample_creator_19,The train leaves from platform four this afternoon. #Food #Review,2025-02-06T18:00:00+00:00,653,43,42,#Food #Review
+post_0019,Facebook,@sample_creator_20,"The support team solved my issue quickly, thank you! #Entertainment #Community",2025-02-08T19:00:00+00:00,1184,69,42,#Entertainment #Community
+post_0020,LinkedIn,@sample_creator_21,Very disappointed with the poor battery and slow performance. #Tech #DailyLife,2025-02-10T20:00:00+00:00,1542,89,2,#Tech #DailyLife
+post_0021,Instagram,@sample_creator_22,The event is scheduled for next Friday. #ProductTalk #Innovation,2025-02-12T21:00:00+00:00,558,121,81,#ProductTalk #Innovation
+post_0022,X,@sample_creator_23,"Absolutely love this new camera, the photos look beautiful! #ProductTalk #Innovation",2025-02-14T22:00:00+00:00,406,79,33,#ProductTalk #Innovation
+post_0023,Facebook,@sample_creator_24,I have waited days for customer service to reply. #ProductTalk #Innovation,2025-02-16T23:00:00+00:00,1464,124,2,#ProductTalk #Innovation
+post_0024,LinkedIn,@sample_creator_25,What are your thoughts on this topic? #Entertainment #Community,2025-02-18T00:00:00+00:00,1075,175,17,#Entertainment #Community
+post_0025,Instagram,@sample_creator_26,Such a welcoming cafe with excellent coffee. #CustomerCare #Feedback,2025-02-20T01:00:00+00:00,1498,151,50,#CustomerCare #Feedback
+post_0026,X,@sample_creator_27,The food was cold and the service was careless. #Travel #Weekend,2025-02-22T02:00:00+00:00,514,38,86,#Travel #Weekend
+post_0027,Facebook,@sample_creator_28,The conference starts at ten and registration is open. #Travel #Weekend,2025-02-24T03:00:00+00:00,102,137,39,#Travel #Weekend
+post_0028,LinkedIn,@sample_creator_29,Great show with a brilliant cast; I enjoyed every episode. #Food #Review,2025-02-26T04:00:00+00:00,101,41,53,#Food #Review
+post_0029,Instagram,@sample_creator_30,I have waited days for customer service to reply. #ProductTalk #Innovation,2025-02-28T05:00:00+00:00,1578,79,32,#ProductTalk #Innovation
+post_0030,X,@sample_creator_31,We tried a new recipe with rice and vegetables. #CustomerCare #Feedback,2025-03-02T06:00:00+00:00,153,138,10,#CustomerCare #Feedback
+post_0031,Facebook,@sample_creator_32,This trip was unforgettable and the views were stunning. #ProductTalk #Innovation,2025-03-04T07:00:00+00:00,495,57,68,#ProductTalk #Innovation
+post_0032,LinkedIn,@sample_creator_33,The flight was delayed and the communication was confusing. #Entertainment #Community,2025-03-06T08:00:00+00:00,334,75,6,#Entertainment #Community
+post_0033,Instagram,@sample_creator_34,The event is scheduled for next Friday. #Entertainment #Community,2025-03-08T09:00:00+00:00,804,124,28,#Entertainment #Community
+post_0034,X,@sample_creator_35,This trip was unforgettable and the views were stunning. #CustomerCare #Feedback,2025-03-10T10:00:00+00:00,1056,160,56,#CustomerCare #Feedback
+post_0035,Facebook,@sample_creator_36,I have waited days for customer service to reply. #CustomerCare #Feedback,2025-03-12T11:00:00+00:00,1539,55,29,#CustomerCare #Feedback
+post_0036,LinkedIn,@sample_creator_37,The event is scheduled for next Friday. #Food #Review,2025-03-14T12:00:00+00:00,1678,48,46,#Food #Review
+post_0037,Instagram,@sample_creator_01,Happy to see the community come together for a good cause. #Tech #DailyLife,2025-03-16T13:00:00+00:00,1524,147,72,#Tech #DailyLife
+post_0038,X,@sample_creator_02,My order arrived late and the packaging was damaged. #CustomerCare #Feedback,2025-03-18T14:00:00+00:00,109,84,74,#CustomerCare #Feedback
+post_0039,Facebook,@sample_creator_03,I watched the new episode last night. #Entertainment #Community,2025-03-20T15:00:00+00:00,473,156,40,#Entertainment #Community
+post_0040,LinkedIn,@sample_creator_04,Great show with a brilliant cast; I enjoyed every episode. #Travel #Weekend,2025-03-22T16:00:00+00:00,1545,54,38,#Travel #Weekend
+post_0041,Instagram,@sample_creator_05,The ending was frustrating and the story made no sense. #Food #Review,2025-03-24T17:00:00+00:00,919,151,11,#Food #Review
+post_0042,X,@sample_creator_06,Reading about changes in the local transport plan. #Tech #DailyLife,2025-03-26T18:00:00+00:00,1071,2,24,#Tech #DailyLife
+post_0043,Facebook,@sample_creator_07,Happy to see the community come together for a good cause. #ProductTalk #Innovation,2025-03-28T19:00:00+00:00,1133,45,57,#ProductTalk #Innovation
+post_0044,LinkedIn,@sample_creator_08,Not worth the price; quality feels much worse than expected. #CustomerCare #Feedback,2025-03-30T20:00:00+00:00,1752,129,17,#CustomerCare #Feedback
+post_0045,Instagram,@sample_creator_09,Reading about changes in the local transport plan. #Entertainment #Community,2025-04-01T21:00:00+00:00,972,115,1,#Entertainment #Community
+post_0046,X,@sample_creator_10,The latest update feels fast and genuinely useful. #Food #Review,2025-04-03T22:00:00+00:00,376,2,59,#Food #Review
+post_0047,Facebook,@sample_creator_11,The product stopped working after one week. #Food #Review,2025-04-05T23:00:00+00:00,432,13,34,#Food #Review
+post_0048,LinkedIn,@sample_creator_12,The conference starts at ten and registration is open. #Entertainment #Community,2025-04-07T00:00:00+00:00,1366,179,1,#Entertainment #Community
+post_0049,Instagram,@sample_creator_13,"Absolutely love this new camera, the photos look beautiful! #Tech #DailyLife",2025-04-09T01:00:00+00:00,966,77,78,#Tech #DailyLife
+post_0050,X,@sample_creator_14,This update broke features that used to work well. #Tech #DailyLife,2025-04-11T02:00:00+00:00,1593,6,58,#Tech #DailyLife
+post_0051,Facebook,@sample_creator_15,Reading about changes in the local transport plan. #Travel #Weekend,2025-04-13T03:00:00+00:00,1776,166,3,#Travel #Weekend
+post_0052,LinkedIn,@sample_creator_16,Such a welcoming cafe with excellent coffee. #Tech #DailyLife,2025-04-15T04:00:00+00:00,876,14,69,#Tech #DailyLife
+post_0053,Instagram,@sample_creator_17,Very disappointed with the poor battery and slow performance. #Travel #Weekend,2025-04-17T05:00:00+00:00,1103,67,34,#Travel #Weekend
+post_0054,X,@sample_creator_18,A short note about current technology trends. #Food #Review,2025-04-19T06:00:00+00:00,1113,148,53,#Food #Review
+post_0055,Facebook,@sample_creator_19,Such a welcoming cafe with excellent coffee. #Tech #DailyLife,2025-04-21T07:00:00+00:00,1076,86,10,#Tech #DailyLife
+post_0056,LinkedIn,@sample_creator_20,Very disappointed with the poor battery and slow performance. #ProductTalk #Innovation,2025-04-23T08:00:00+00:00,1496,72,41,#ProductTalk #Innovation
+post_0057,Instagram,@sample_creator_21,A short note about current technology trends. #Tech #DailyLife,2025-04-25T09:00:00+00:00,684,32,68,#Tech #DailyLife
+post_0058,X,@sample_creator_22,This recipe turned out delicious and easy to make. #CustomerCare #Feedback,2025-04-27T10:00:00+00:00,1683,72,56,#CustomerCare #Feedback
+post_0059,Facebook,@sample_creator_23,I have waited days for customer service to reply. #Food #Review,2025-04-29T11:00:00+00:00,511,18,87,#Food #Review
+post_0060,LinkedIn,@sample_creator_24,We tried a new recipe with rice and vegetables. #Food #Review,2025-05-01T12:00:00+00:00,1402,51,61,#Food #Review
+post_0061,Instagram,@sample_creator_25,Great show with a brilliant cast; I enjoyed every episode. #Travel #Weekend,2025-05-03T13:00:00+00:00,437,129,73,#Travel #Weekend
+post_0062,X,@sample_creator_26,The food was cold and the service was careless. #Food #Review,2025-05-05T14:00:00+00:00,170,111,56,#Food #Review
+post_0063,Facebook,@sample_creator_27,Reading about changes in the local transport plan. #CustomerCare #Feedback,2025-05-07T15:00:00+00:00,1599,133,77,#CustomerCare #Feedback
+post_0064,LinkedIn,@sample_creator_28,Had an amazing weekend exploring the coast. #ProductTalk #Innovation,2025-05-09T16:00:00+00:00,1145,36,21,#ProductTalk #Innovation
+post_0065,Instagram,@sample_creator_29,A stressful experience that I would not recommend. #Entertainment #Community,2025-05-11T17:00:00+00:00,649,126,36,#Entertainment #Community
+post_0066,X,@sample_creator_30,We tried a new recipe with rice and vegetables. #Tech #DailyLife,2025-05-13T18:00:00+00:00,1263,60,21,#Tech #DailyLife
+post_0067,Facebook,@sample_creator_31,Had an amazing weekend exploring the coast. #Travel #Weekend,2025-05-15T19:00:00+00:00,874,140,41,#Travel #Weekend
+post_0068,LinkedIn,@sample_creator_32,My order arrived late and the packaging was damaged. #CustomerCare #Feedback,2025-05-17T20:00:00+00:00,1536,128,16,#CustomerCare #Feedback
+post_0069,Instagram,@sample_creator_33,The train leaves from platform four this afternoon. #Travel #Weekend,2025-05-19T21:00:00+00:00,1015,64,64,#Travel #Weekend
+post_0070,X,@sample_creator_34,This recipe turned out delicious and easy to make. #Food #Review,2025-05-21T22:00:00+00:00,14,162,15,#Food #Review
+post_0071,Facebook,@sample_creator_35,The product stopped working after one week. #CustomerCare #Feedback,2025-05-23T23:00:00+00:00,157,110,11,#CustomerCare #Feedback
+post_0072,LinkedIn,@sample_creator_36,Reading about changes in the local transport plan. #CustomerCare #Feedback,2025-05-25T00:00:00+00:00,499,43,9,#CustomerCare #Feedback
+post_0073,Instagram,@sample_creator_37,The latest update feels fast and genuinely useful. #Tech #DailyLife,2025-05-27T01:00:00+00:00,590,86,59,#Tech #DailyLife
+post_0074,X,@sample_creator_01,The product stopped working after one week. #Travel #Weekend,2025-05-29T02:00:00+00:00,306,68,39,#Travel #Weekend
+post_0075,Facebook,@sample_creator_02,We tried a new recipe with rice and vegetables. #Food #Review,2025-05-31T03:00:00+00:00,1177,131,80,#Food #Review
+post_0076,LinkedIn,@sample_creator_03,Had an amazing weekend exploring the coast. #CustomerCare #Feedback,2025-06-02T04:00:00+00:00,213,167,80,#CustomerCare #Feedback
+post_0077,Instagram,@sample_creator_04,The flight was delayed and the communication was confusing. #Travel #Weekend,2025-06-04T05:00:00+00:00,443,54,69,#Travel #Weekend
+post_0078,X,@sample_creator_05,A short note about current technology trends. #ProductTalk #Innovation,2025-06-06T06:00:00+00:00,893,96,34,#ProductTalk #Innovation
+post_0079,Facebook,@sample_creator_06,"The support team solved my issue quickly, thank you! #Food #Review",2025-06-08T07:00:00+00:00,828,165,26,#Food #Review
+post_0080,LinkedIn,@sample_creator_07,The product stopped working after one week. #Tech #DailyLife,2025-06-10T08:00:00+00:00,72,145,74,#Tech #DailyLife
+post_0081,Instagram,@sample_creator_08,Sharing a few photos from today's walk in the city. #Food #Review,2025-06-12T09:00:00+00:00,1382,166,62,#Food #Review
+post_0082,X,@sample_creator_09,Such a welcoming cafe with excellent coffee. #CustomerCare #Feedback,2025-06-14T10:00:00+00:00,1249,66,88,#CustomerCare #Feedback
+post_0083,Facebook,@sample_creator_10,The flight was delayed and the communication was confusing. #CustomerCare #Feedback,2025-06-16T11:00:00+00:00,1581,41,53,#CustomerCare #Feedback
+post_0084,LinkedIn,@sample_creator_11,Here is a summary of the product specifications. #Travel #Weekend,2025-06-18T12:00:00+00:00,426,92,90,#Travel #Weekend
+post_0085,Instagram,@sample_creator_12,This recipe turned out delicious and easy to make. #Travel #Weekend,2025-06-20T13:00:00+00:00,1565,162,48,#Travel #Weekend
+post_0086,X,@sample_creator_13,I have waited days for customer service to reply. #CustomerCare #Feedback,2025-06-22T14:00:00+00:00,1349,50,45,#CustomerCare #Feedback
+post_0087,Facebook,@sample_creator_14,Reading about changes in the local transport plan. #Travel #Weekend,2025-06-24T15:00:00+00:00,1196,123,56,#Travel #Weekend
+post_0088,LinkedIn,@sample_creator_15,"The support team solved my issue quickly, thank you! #Travel #Weekend",2025-06-26T16:00:00+00:00,482,111,50,#Travel #Weekend
+post_0089,Instagram,@sample_creator_16,This update broke features that used to work well. #ProductTalk #Innovation,2025-06-28T17:00:00+00:00,822,96,62,#ProductTalk #Innovation
+post_0090,X,@sample_creator_17,A short note about current technology trends. #ProductTalk #Innovation,2025-06-30T18:00:00+00:00,1627,61,41,#ProductTalk #Innovation
+post_0091,Facebook,@sample_creator_18,Such a welcoming cafe with excellent coffee. #Travel #Weekend,2025-07-02T19:00:00+00:00,1756,44,63,#Travel #Weekend
+post_0092,LinkedIn,@sample_creator_19,Very disappointed with the poor battery and slow performance. #CustomerCare #Feedback,2025-07-04T20:00:00+00:00,200,104,83,#CustomerCare #Feedback
+post_0093,Instagram,@sample_creator_20,The event is scheduled for next Friday. #Tech #DailyLife,2025-07-06T21:00:00+00:00,376,127,3,#Tech #DailyLife
+post_0094,X,@sample_creator_21,The latest update feels fast and genuinely useful. #CustomerCare #Feedback,2025-07-08T22:00:00+00:00,264,50,20,#CustomerCare #Feedback
+post_0095,Facebook,@sample_creator_22,The flight was delayed and the communication was confusing. #Travel #Weekend,2025-07-10T23:00:00+00:00,73,31,37,#Travel #Weekend
+post_0096,LinkedIn,@sample_creator_23,The event is scheduled for next Friday. #Tech #DailyLife,2025-07-12T00:00:00+00:00,179,75,78,#Tech #DailyLife
+post_0097,Instagram,@sample_creator_24,The latest update feels fast and genuinely useful. #Entertainment #Community,2025-07-14T01:00:00+00:00,637,165,48,#Entertainment #Community
+post_0098,X,@sample_creator_25,My order arrived late and the packaging was damaged. #Food #Review,2025-07-16T02:00:00+00:00,1657,144,4,#Food #Review
+post_0099,Facebook,@sample_creator_26,Sharing a few photos from today's walk in the city. #ProductTalk #Innovation,2025-07-18T03:00:00+00:00,1098,72,68,#ProductTalk #Innovation
+post_0100,LinkedIn,@sample_creator_27,Happy to see the community come together for a good cause. #Tech #DailyLife,2025-07-20T04:00:00+00:00,1441,14,35,#Tech #DailyLife
+post_0101,Instagram,@sample_creator_28,The flight was delayed and the communication was confusing. #Entertainment #Community,2025-07-22T05:00:00+00:00,719,123,27,#Entertainment #Community
+post_0102,X,@sample_creator_29,Reading about changes in the local transport plan. #Tech #DailyLife,2025-07-24T06:00:00+00:00,89,95,47,#Tech #DailyLife
+post_0103,Facebook,@sample_creator_30,Really impressed with the battery life and design. #CustomerCare #Feedback,2025-07-26T07:00:00+00:00,674,126,46,#CustomerCare #Feedback
+post_0104,LinkedIn,@sample_creator_31,This update broke features that used to work well. #Tech #DailyLife,2025-07-28T08:00:00+00:00,1230,29,44,#Tech #DailyLife
+post_0105,Instagram,@sample_creator_32,Reading about changes in the local transport plan. #Travel #Weekend,2025-07-30T09:00:00+00:00,1743,97,14,#Travel #Weekend
+post_0106,X,@sample_creator_33,Happy to see the community come together for a good cause. #Entertainment #Community,2025-08-01T10:00:00+00:00,162,10,50,#Entertainment #Community
+post_0107,Facebook,@sample_creator_34,I have waited days for customer service to reply. #ProductTalk #Innovation,2025-08-03T11:00:00+00:00,1521,118,18,#ProductTalk #Innovation
+post_0108,LinkedIn,@sample_creator_35,Here is a summary of the product specifications. #Entertainment #Community,2025-08-05T12:00:00+00:00,1656,113,6,#Entertainment #Community
+post_0109,Instagram,@sample_creator_36,The latest update feels fast and genuinely useful. #Tech #DailyLife,2025-08-07T13:00:00+00:00,1214,27,12,#Tech #DailyLife
+post_0110,X,@sample_creator_37,The food was cold and the service was careless. #CustomerCare #Feedback,2025-08-09T14:00:00+00:00,451,79,82,#CustomerCare #Feedback
+post_0111,Facebook,@sample_creator_01,The train leaves from platform four this afternoon. #Food #Review,2025-08-11T15:00:00+00:00,1240,84,70,#Food #Review
+post_0112,LinkedIn,@sample_creator_02,"Absolutely love this new camera, the photos look beautiful! #CustomerCare #Feedback",2025-08-13T16:00:00+00:00,181,98,0,#CustomerCare #Feedback
+post_0113,Instagram,@sample_creator_03,Not worth the price; quality feels much worse than expected. #Tech #DailyLife,2025-08-15T17:00:00+00:00,1794,83,68,#Tech #DailyLife
+post_0114,X,@sample_creator_04,A short note about current technology trends. #ProductTalk #Innovation,2025-08-17T18:00:00+00:00,940,14,62,#ProductTalk #Innovation
+post_0115,Facebook,@sample_creator_05,"The support team solved my issue quickly, thank you! #Entertainment #Community",2025-08-19T19:00:00+00:00,1323,119,38,#Entertainment #Community
+post_0116,LinkedIn,@sample_creator_06,A stressful experience that I would not recommend. #Tech #DailyLife,2025-08-21T20:00:00+00:00,1484,151,85,#Tech #DailyLife
+post_0117,Instagram,@sample_creator_07,I watched the new episode last night. #Tech #DailyLife,2025-08-23T21:00:00+00:00,1387,82,87,#Tech #DailyLife
+post_0118,X,@sample_creator_08,"Absolutely love this new camera, the photos look beautiful! #Travel #Weekend",2025-08-25T22:00:00+00:00,1724,146,86,#Travel #Weekend
+post_0119,Facebook,@sample_creator_09,This update broke features that used to work well. #Food #Review,2025-08-27T23:00:00+00:00,1532,107,10,#Food #Review
+post_0120,LinkedIn,@sample_creator_10,The conference starts at ten and registration is open. #CustomerCare #Feedback,2025-08-29T00:00:00+00:00,1639,14,62,#CustomerCare #Feedback
+post_0121,Instagram,@sample_creator_11,This trip was unforgettable and the views were stunning. #CustomerCare #Feedback,2025-08-31T01:00:00+00:00,847,172,33,#CustomerCare #Feedback
+post_0122,X,@sample_creator_12,A stressful experience that I would not recommend. #Travel #Weekend,2025-09-02T02:00:00+00:00,1152,128,51,#Travel #Weekend
+post_0123,Facebook,@sample_creator_13,What are your thoughts on this topic? #Travel #Weekend,2025-09-04T03:00:00+00:00,1580,56,42,#Travel #Weekend
+post_0124,LinkedIn,@sample_creator_14,This recipe turned out delicious and easy to make. #ProductTalk #Innovation,2025-09-06T04:00:00+00:00,650,120,40,#ProductTalk #Innovation
+post_0125,Instagram,@sample_creator_15,This update broke features that used to work well. #Entertainment #Community,2025-09-08T05:00:00+00:00,202,52,67,#Entertainment #Community
+post_0126,X,@sample_creator_16,The event is scheduled for next Friday. #Travel #Weekend,2025-09-10T06:00:00+00:00,900,111,46,#Travel #Weekend
+post_0127,Facebook,@sample_creator_17,Such a welcoming cafe with excellent coffee. #Entertainment #Community,2025-09-12T07:00:00+00:00,107,50,15,#Entertainment #Community
+post_0128,LinkedIn,@sample_creator_18,This update broke features that used to work well. #Tech #DailyLife,2025-09-14T08:00:00+00:00,530,13,33,#Tech #DailyLife
+post_0129,Instagram,@sample_creator_19,A short note about current technology trends. #CustomerCare #Feedback,2025-09-16T09:00:00+00:00,791,180,5,#CustomerCare #Feedback
+post_0130,X,@sample_creator_20,This trip was unforgettable and the views were stunning. #Entertainment #Community,2025-09-18T10:00:00+00:00,1067,3,3,#Entertainment #Community
+post_0131,Facebook,@sample_creator_21,My order arrived late and the packaging was damaged. #Food #Review,2025-09-20T11:00:00+00:00,1434,151,41,#Food #Review
+post_0132,LinkedIn,@sample_creator_22,I watched the new episode last night. #Food #Review,2025-09-22T12:00:00+00:00,1199,155,84,#Food #Review
+post_0133,Instagram,@sample_creator_23,Great show with a brilliant cast; I enjoyed every episode. #Entertainment #Community,2025-09-24T13:00:00+00:00,488,68,73,#Entertainment #Community
+post_0134,X,@sample_creator_24,Not worth the price; quality feels much worse than expected. #CustomerCare #Feedback,2025-09-26T14:00:00+00:00,226,32,3,#CustomerCare #Feedback
+post_0135,Facebook,@sample_creator_25,I watched the new episode last night. #CustomerCare #Feedback,2025-01-01T15:00:00+00:00,1039,39,56,#CustomerCare #Feedback
+post_0136,LinkedIn,@sample_creator_26,Happy to see the community come together for a good cause. #Tech #DailyLife,2025-01-03T16:00:00+00:00,15,44,48,#Tech #DailyLife
+post_0137,Instagram,@sample_creator_27,The ending was frustrating and the story made no sense. #ProductTalk #Innovation,2025-01-05T17:00:00+00:00,1432,102,12,#ProductTalk #Innovation
+post_0138,X,@sample_creator_28,The train leaves from platform four this afternoon. #Travel #Weekend,2025-01-07T18:00:00+00:00,414,36,2,#Travel #Weekend
+post_0139,Facebook,@sample_creator_29,Happy to see the community come together for a good cause. #CustomerCare #Feedback,2025-01-09T19:00:00+00:00,669,38,60,#CustomerCare #Feedback
+post_0140,LinkedIn,@sample_creator_30,This update broke features that used to work well. #CustomerCare #Feedback,2025-01-11T20:00:00+00:00,1433,92,33,#CustomerCare #Feedback
+post_0141,Instagram,@sample_creator_31,The event is scheduled for next Friday. #CustomerCare #Feedback,2025-01-13T21:00:00+00:00,183,44,13,#CustomerCare #Feedback
+post_0142,X,@sample_creator_32,This recipe turned out delicious and easy to make. #CustomerCare #Feedback,2025-01-15T22:00:00+00:00,510,79,13,#CustomerCare #Feedback
+post_0143,Facebook,@sample_creator_33,The flight was delayed and the communication was confusing. #Entertainment #Community,2025-01-17T23:00:00+00:00,1481,148,32,#Entertainment #Community
+post_0144,LinkedIn,@sample_creator_34,A short note about current technology trends. #CustomerCare #Feedback,2025-01-19T00:00:00+00:00,534,130,50,#CustomerCare #Feedback
+post_0145,Instagram,@sample_creator_35,"Absolutely love this new camera, the photos look beautiful! #CustomerCare #Feedback",2025-01-21T01:00:00+00:00,1646,68,20,#CustomerCare #Feedback
+post_0146,X,@sample_creator_36,My order arrived late and the packaging was damaged. #Travel #Weekend,2025-01-23T02:00:00+00:00,436,26,4,#Travel #Weekend
+post_0147,Facebook,@sample_creator_37,A short note about current technology trends. #Tech #DailyLife,2025-01-25T03:00:00+00:00,1463,10,24,#Tech #DailyLife
+post_0148,LinkedIn,@sample_creator_01,Great show with a brilliant cast; I enjoyed every episode. #Food #Review,2025-01-27T04:00:00+00:00,465,53,64,#Food #Review
+post_0149,Instagram,@sample_creator_02,The food was cold and the service was careless. #Travel #Weekend,2025-01-29T05:00:00+00:00,1730,147,77,#Travel #Weekend
+post_0150,X,@sample_creator_03,What are your thoughts on this topic? #Tech #DailyLife,2025-01-31T06:00:00+00:00,1000,8,83,#Tech #DailyLife
+post_0151,Facebook,@sample_creator_04,Really impressed with the battery life and design. #CustomerCare #Feedback,2025-02-02T07:00:00+00:00,849,85,66,#CustomerCare #Feedback
+post_0152,LinkedIn,@sample_creator_05,My order arrived late and the packaging was damaged. #CustomerCare #Feedback,2025-02-04T08:00:00+00:00,1190,14,3,#CustomerCare #Feedback
+post_0153,Instagram,@sample_creator_06,The conference starts at ten and registration is open. #Tech #DailyLife,2025-02-06T09:00:00+00:00,1279,42,36,#Tech #DailyLife
+post_0154,X,@sample_creator_07,Happy to see the community come together for a good cause. #CustomerCare #Feedback,2025-02-08T10:00:00+00:00,1338,8,19,#CustomerCare #Feedback
+post_0155,Facebook,@sample_creator_08,The flight was delayed and the communication was confusing. #Travel #Weekend,2025-02-10T11:00:00+00:00,1654,85,20,#Travel #Weekend
+post_0156,LinkedIn,@sample_creator_09,A short note about current technology trends. #Food #Review,2025-02-12T12:00:00+00:00,1001,59,72,#Food #Review
+post_0157,Instagram,@sample_creator_10,Really impressed with the battery life and design. #Food #Review,2025-02-14T13:00:00+00:00,1329,160,90,#Food #Review
+post_0158,X,@sample_creator_11,The ending was frustrating and the story made no sense. #Travel #Weekend,2025-02-16T14:00:00+00:00,345,145,76,#Travel #Weekend
+post_0159,Facebook,@sample_creator_12,We tried a new recipe with rice and vegetables. #Food #Review,2025-02-18T15:00:00+00:00,951,139,39,#Food #Review
+post_0160,LinkedIn,@sample_creator_13,"Absolutely love this new camera, the photos look beautiful! #ProductTalk #Innovation",2025-02-20T16:00:00+00:00,1574,135,42,#ProductTalk #Innovation
+post_0161,Instagram,@sample_creator_14,The food was cold and the service was careless. #Food #Review,2025-02-22T17:00:00+00:00,76,1,38,#Food #Review
+post_0162,X,@sample_creator_15,The conference starts at ten and registration is open. #Tech #DailyLife,2025-02-24T18:00:00+00:00,742,150,14,#Tech #DailyLife
+post_0163,Facebook,@sample_creator_16,This trip was unforgettable and the views were stunning. #Travel #Weekend,2025-02-26T19:00:00+00:00,178,94,20,#Travel #Weekend
+post_0164,LinkedIn,@sample_creator_17,Not worth the price; quality feels much worse than expected. #Entertainment #Community,2025-02-28T20:00:00+00:00,973,81,17,#Entertainment #Community
+post_0165,Instagram,@sample_creator_18,The event is scheduled for next Friday. #CustomerCare #Feedback,2025-03-02T21:00:00+00:00,445,155,28,#CustomerCare #Feedback
+post_0166,X,@sample_creator_19,Such a welcoming cafe with excellent coffee. #Tech #DailyLife,2025-03-04T22:00:00+00:00,1609,61,70,#Tech #DailyLife
+post_0167,Facebook,@sample_creator_20,This update broke features that used to work well. #Entertainment #Community,2025-03-06T23:00:00+00:00,1314,18,52,#Entertainment #Community
+post_0168,LinkedIn,@sample_creator_21,What are your thoughts on this topic? #Travel #Weekend,2025-03-08T00:00:00+00:00,968,70,75,#Travel #Weekend
+post_0169,Instagram,@sample_creator_22,The latest update feels fast and genuinely useful. #Entertainment #Community,2025-03-10T01:00:00+00:00,356,87,57,#Entertainment #Community
+post_0170,X,@sample_creator_23,The food was cold and the service was careless. #ProductTalk #Innovation,2025-03-12T02:00:00+00:00,657,67,35,#ProductTalk #Innovation
+post_0171,Facebook,@sample_creator_24,The conference starts at ten and registration is open. #ProductTalk #Innovation,2025-03-14T03:00:00+00:00,1717,121,33,#ProductTalk #Innovation
+post_0172,LinkedIn,@sample_creator_25,Really impressed with the battery life and design. #CustomerCare #Feedback,2025-03-16T04:00:00+00:00,1635,173,1,#CustomerCare #Feedback
+post_0173,Instagram,@sample_creator_26,My order arrived late and the packaging was damaged. #Travel #Weekend,2025-03-18T05:00:00+00:00,832,172,43,#Travel #Weekend
+post_0174,X,@sample_creator_27,Sharing a few photos from today's walk in the city. #Travel #Weekend,2025-03-20T06:00:00+00:00,1329,14,61,#Travel #Weekend
+post_0175,Facebook,@sample_creator_28,The latest update feels fast and genuinely useful. #Tech #DailyLife,2025-03-22T07:00:00+00:00,1256,162,81,#Tech #DailyLife
+post_0176,LinkedIn,@sample_creator_29,The product stopped working after one week. #Food #Review,2025-03-24T08:00:00+00:00,1046,93,89,#Food #Review
+post_0177,Instagram,@sample_creator_30,The train leaves from platform four this afternoon. #ProductTalk #Innovation,2025-03-26T09:00:00+00:00,466,8,31,#ProductTalk #Innovation
+post_0178,X,@sample_creator_31,"Absolutely love this new camera, the photos look beautiful! #CustomerCare #Feedback",2025-03-28T10:00:00+00:00,144,109,4,#CustomerCare #Feedback
+post_0179,Facebook,@sample_creator_32,The ending was frustrating and the story made no sense. #ProductTalk #Innovation,2025-03-30T11:00:00+00:00,1489,88,78,#ProductTalk #Innovation
+post_0180,LinkedIn,@sample_creator_33,Here is a summary of the product specifications. #Entertainment #Community,2025-04-01T12:00:00+00:00,1319,67,34,#Entertainment #Community

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard | Social Data Platform{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
+  <div><span class="text-primary fw-semibold">ANALYTICS</span><h1 class="h2 mb-1">Social media dashboard</h1><p class="text-secondary mb-0">Filter locally processed sample posts and explore their engagement.</p></div>
+  <div class="d-flex gap-2"><a class="btn btn-outline-secondary" id="export-data" href="/api/export">Export CSV</a><button class="btn btn-primary" id="run-pipeline"><span class="button-label">Run Data Pipeline</span></button></div>
+</div>
+<div id="pipeline-message" class="alert d-none" role="status"></div>
+<div id="load-error" class="alert alert-warning d-none">No analytics data yet. Run the pipeline to populate the dashboard.</div>
+
+<section class="card mb-4"><div class="card-body"><h2 class="h5">Dashboard filters</h2>
+  <form id="dashboard-filters" class="row g-3 align-items-end">
+    <div class="col-sm-6 col-lg-3"><label class="form-label" for="filter-platform">Platform</label><select class="form-select" id="filter-platform"><option value="">All platforms</option>{% for platform in platforms %}<option value="{{ platform }}">{{ platform }}</option>{% endfor %}</select></div>
+    <div class="col-sm-6 col-lg-3"><label class="form-label" for="filter-sentiment">Sentiment</label><select class="form-select" id="filter-sentiment"><option value="">All sentiments</option><option>Positive</option><option>Neutral</option><option>Negative</option></select></div>
+    <div class="col-sm-6 col-lg-2"><label class="form-label" for="filter-start">Start date</label><input class="form-control" id="filter-start" type="date"></div>
+    <div class="col-sm-6 col-lg-2"><label class="form-label" for="filter-end">End date</label><input class="form-control" id="filter-end" type="date"></div>
+    <div class="col-6 col-lg-1"><button class="btn btn-primary w-100" type="submit">Apply</button></div><div class="col-6 col-lg-1"><button class="btn btn-outline-secondary w-100" id="clear-filters" type="button">Clear</button></div>
+  </form><div id="filter-message" class="small text-danger mt-2 d-none"></div>
+</div></section>
+
+<h2 class="h5 mb-3">Key performance indicators</h2>
+<div class="row g-3 mb-4">
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Total Posts</div><strong id="total-posts">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Total Engagement</div><strong id="total-engagement">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Average Engagement</div><strong id="average-engagement">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Average Engagement Index</div><strong id="average-rate">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Average Sentiment Polarity</div><strong id="average-polarity">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Platforms</div><strong id="total-platforms">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Hashtags</div><strong id="total-hashtags">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Top Platform</div><strong id="top-platform">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Positive Posts</div><strong id="positive-posts">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Neutral Posts</div><strong id="neutral-posts">—</strong></div></div>
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Negative Posts</div><strong id="negative-posts">—</strong></div></div>
+</div>
+
+<h2 class="h5 mb-3">Pipeline monitoring</h2>
+<div class="row g-3 mb-4">
+  <div class="col-6 col-lg-3"><div class="metric-card"><div>Last Run</div><strong class="h6" id="last-run">—</strong></div></div>
+  <div class="col-6 col-lg-2"><div class="metric-card"><div>Pipeline Status</div><strong class="h6" id="pipeline-status">—</strong></div></div>
+  <div class="col-6 col-lg-2"><div class="metric-card"><div>Processed / New</div><strong class="h6" id="run-processed">—</strong></div></div>
+  <div class="col-6 col-lg-2"><div class="metric-card"><div>Duplicates / Failed</div><strong class="h6" id="run-duplicates">—</strong></div></div>
+  <div class="col-6 col-lg-1"><div class="metric-card"><div>Quality</div><strong class="h6" id="quality-status">—</strong></div></div>
+  <div class="col-6 col-lg-2"><div class="metric-card"><div>Runtime</div><strong class="h6" id="run-runtime">—</strong></div></div>
+</div>
+
+<div class="row g-4">
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Sentiment distribution</h2><canvas id="sentiment-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Sentiment trend</h2><canvas id="trend-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Platform performance</h2><canvas id="platform-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Engagement trend by date</h2><canvas id="date-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Engagement by hour</h2><canvas id="hour-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Engagement by weekday</h2><canvas id="weekday-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Most used hashtags</h2><canvas id="hashtag-chart"></canvas></div></div>
+  <div class="col-lg-6"><div class="chart-card"><h2 class="h5">Hashtag average engagement</h2><canvas id="hashtag-engagement-chart"></canvas></div></div>
+</div>
+
+<div class="row g-4 mt-1">
+  <div class="col-12"><section class="card"><div class="card-body"><h2 class="h5">Platform comparison</h2><div class="table-responsive"><table class="table table-sm align-middle mb-0"><thead><tr><th>Platform</th><th>Posts</th><th>Total engagement</th><th>Average engagement</th><th>Average rate index</th><th>Average polarity</th><th>Positive / neutral / negative</th></tr></thead><tbody id="platform-table"></tbody></table></div></div></section></div>
+  <div class="col-lg-7"><section class="card h-100"><div class="card-body"><h2 class="h5">Top-performing posts</h2><div class="table-responsive"><table class="table table-sm align-middle"><thead><tr><th>Post</th><th>Platform</th><th>Sentiment</th><th>Date</th><th>Engagement</th></tr></thead><tbody id="top-posts-table"></tbody></table></div></div></section></div>
+  <div class="col-lg-5"><section class="card h-100"><div class="card-body"><h2 class="h5">Data-quality summary</h2><div id="quality-summary" class="small text-secondary">No quality report is available yet.</div></div></section></div>
+</div>
+
+<section class="card mt-4"><div class="card-body"><h2 class="h5">Recent pipeline runs</h2><div class="table-responsive"><table class="table table-sm align-middle mb-0"><thead><tr><th>Started</th><th>Source</th><th>Status</th><th>Input</th><th>New</th><th>Duplicates</th><th>Processed</th><th>Failed</th><th>Quality</th><th>Seconds</th></tr></thead><tbody id="runs-table"><tr><td colspan="10" class="text-secondary">No runs recorded.</td></tr></tbody></table></div></div></section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='vendor/chart.umd.min.js') }}"></script><script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>{% endblock %}
